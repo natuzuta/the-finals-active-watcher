@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows Task Scheduler (ローカル用、GitHubには不要)
+SangwooWatch.xml
