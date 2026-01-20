@@ -1,0 +1,52 @@
+{
+  "keyword": "sangwoo",
+  "timestamp": "2026-01-20T04:34:10.908881",
+  "season": "s9",
+  "ranked_leaderboard": {
+    "meta": {
+      "leaderboardVersion": "s9",
+      "leaderboardPlatform": "crossplay",
+      "dataSource": "fetch",
+      "nameFilter": "sangwoo",
+      "exactClubTag": false,
+      "returnCountOnly": false
+    },
+    "count": 1,
+    "data": [
+      {
+        "rank": 104,
+        "change": 11,
+        "name": "SangWoo#9265",
+        "steamName": "SangWoo",
+        "psnName": "",
+        "xboxName": "",
+        "clubTag": "",
+        "leagueNumber": 21,
+        "league": "Ruby",
+        "rankScore": 53153
+      }
+    ]
+  },
+  "world_tour": {
+    "meta": {
+      "leaderboardVersion": "s9worldtour",
+      "leaderboardPlatform": "crossplay",
+      "dataSource": "fetch",
+      "nameFilter": "sangwoo",
+      "exactClubTag": false,
+      "returnCountOnly": false
+    },
+    "count": 1,
+    "data": [
+      {
+        "rank": 1,
+        "name": "SangWoo#9265",
+        "steamName": "SangWoo",
+        "psnName": "",
+        "xboxName": "",
+        "clubTag": "",
+        "cashouts": 66304250
+      }
+    ]
+  }
+}
