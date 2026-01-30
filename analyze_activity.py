@@ -16,7 +16,7 @@ from typing import Optional
 # =============================================================================
 
 # 結果ファイルのフォルダ
-RESULTS_FOLDER = os.path.dirname(os.path.abspath(__file__))
+RESULTS_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ust")
 
 # 結果ファイルのパターン
 RESULT_PATTERN = "result_*.json"
