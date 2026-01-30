@@ -29,7 +29,7 @@ CURRENT_SEASON = "s9"
 PLATFORM = "crossplay"
 
 # 出力フォルダ（このスクリプトと同じフォルダに保存）
-OUTPUT_FOLDER = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ust")
 
 
 # =============================================================================
@@ -91,6 +91,9 @@ def save_results_to_file(ranked_data: Optional[dict], world_tour_data: Optional[
         world_tour_data: ワールドツアーのデータ
         keyword: 検索キーワード
     """
+    # 出力フォルダが存在しない場合は作成
+    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
     # JSONファイルとして保存
