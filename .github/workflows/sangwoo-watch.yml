@@ -1,9 +1,9 @@
 name: SangwooWatch
 
 on:
-  schedule:
-    - cron: '47 * * * *'  # 毎時47分に実行 (UTC)
-    - cron: '17 * * * *'
+#  schedule:
+#    - cron: '47 * * * *'  # 毎時47分に実行 (UTC)
+#    - cron: '17 * * * *'
   workflow_dispatch:  # 手動実行も可能
 
 jobs:
